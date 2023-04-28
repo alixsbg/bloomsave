@@ -1,0 +1,104 @@
+/* Write some CSS below */
+
+h2{
+	font-family: 'Amatic SC', cursive;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+}
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+div{
+	background: #FBFAF8;
+	text-align: center;
+}
+img {
+width: 200px;
+height: 200px;
+}
+
+.container1 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/fleurs-b.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+
+}
+
+.banner h1 {
+	font-size: 60px;
+}
+
+.banner h2{
+	font-size: 50px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #FE6D73;
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #7699D4;
+}
+
+.restaurant {
+        text-align: center;
+     width: 250px;
+        background: white;
+        box-shadow: 0 0 16px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        padding: 10px;
+       
+    }
+
+    .restaurant img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    }
+    .card {
+        display: grid;
+        border-radius: 4px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        margin-bottom: 20px;
+    }
+    .container2 {
+    width: 800px;
+        margin: auto;
+    }
+
+
+
+
