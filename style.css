@@ -71,7 +71,7 @@ height: 200px;
   background-color: #7699D4;
 }
 
-.restaurant {
+.service {
         text-align: center;
      width: 250px;
         background: white;
@@ -81,12 +81,6 @@ height: 200px;
        
     }
 
-    .restaurant img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 4px;
-    }
     .card {
         display: grid;
         border-radius: 4px;
@@ -99,6 +93,18 @@ height: 200px;
         margin: auto;
     }
 
+    .histoire{
+    	background-color: white;
+    	padding: 80px;
+    }
+
+.footer{
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	padding: 120px;
+}
 
 
 
